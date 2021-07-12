@@ -13,6 +13,10 @@
 
 ## Development setup
 
+### Local Environment
+- Install Xampp.
+- Run Apache & MySQL service using Xampp Control Panel.
+
 ### Api
 - Run `composer install` in the `api` folder.
 - Run `php artisan migrate` to migrate data.
