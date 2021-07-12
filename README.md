@@ -14,10 +14,10 @@
 ## Development setup
 
 ### Api
-- Run `composer install` in the `api` folder;
-- Run `php artisan migrate` to migrate data;
-- Run `php artisan passport:install` to install passport auth_client
-- Run `php artisan serve --host {ip_address} --port {port}` to start server , which {ip_address} and {port} will use for axios connect to. 
+- Run `composer install` in the `api` folder.
+- Run `php artisan migrate` to migrate data.
+- Run `php artisan passport:install` to install passport auth_client.
+- Run `php artisan serve` to start server.
 
 ### Front-End 
 - Run `yarn` in the `frontend` folder;
