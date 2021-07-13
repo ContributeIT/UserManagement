@@ -14,7 +14,7 @@
 ## Development setup
 
 ### Local Environment
-- Install Xampp.
+- Install Xampp and Nodejs.
 - Run Apache & MySQL service using Xampp Control Panel.
 
 ### Api
@@ -24,7 +24,8 @@
 - Run `php artisan db::seed` to seed database datas.
 - Run `php artisan serve` to start server.
 
-### Front-End 
+### Front-End
+- Install yarn using npm.
 - Run `yarn` in the `frontend` folder;
 - Run `yarn start` to up the project;
 
