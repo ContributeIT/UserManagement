@@ -29,9 +29,10 @@ DB_PASSWORD=
 
 ### Api
 - Run `composer install` in the `api` folder.
-- Run `php artisan migrate` to migrate data.
+- Run `php artisan migrate` to migrate database data.
+- Currently we will use the `users` table for this project.
 - Run `php artisan passport:install` to install passport auth_client.
-- Run `php artisan db::seed` to seed database datas.
+- Run `php artisan db::seed` to seed database datas into `users` table.
 - Run `php artisan serve` to start server.
 - Currently we have 3 Apis: 
   + /register (POST): create multiple of user records and save into DB.
